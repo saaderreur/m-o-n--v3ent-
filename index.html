@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body >
+
+<!-- start our navbar ---------------- -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ournavbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+<ul class="res hidden-md">
+  <li>
+    <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    <a href=""><i class="fa fa-skype" aria-hidden="true"></i>
+   
+</a>
+  </li>
+</ul>
+      <a class="navbar-brand" href="#"><span>Ma</span>Fiésta</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="ournavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#"><i class="fa fa-television" aria-hidden="true"></i> Présentation</a></li>
+        <li><a href="#"><i class="fa fa-pie-chart" aria-hidden="true"></i> Nos Packes</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-venus-double" aria-hidden="true"></i>
+ Nos Mariées <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="title"><a href="#">Pour lui</a></li>
+            <li class="cnt"><a href="#">Costume</a></li>
+            <li class="cnt"><a href="#">Coiffeur</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="title"><a href="#">Pour Elle</a></li>
+            <li class="cnt"><a href="#">Robe De Marriage</a></li>
+            <li class="cnt"><a href="#">Coiffeur</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="cnt"><a href="#">Plus</a></li>
+          </ul>
+
+        </li>
+        <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i> Nos Professionels</a></li>
+        <li><a href="#inscription" data-toggle="modal"><i class="fa fa-handshake-o" aria-hidden="true"></i> Devenire Partenaires</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-sign-in" aria-hidden="true"></i> <b>Login</b> <span class="caret"></span></a>
+      <ul id="login-dp" class="dropdown-menu">
+        <li>
+           <div class="row">
+              <div class="col-md-12">
+                Connecté Avec
+                <div class="social-buttons">
+                  <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                  <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                </div>
+                                ou
+                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputEmail2">Adresse email</label>
+                       <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Adresse email" required>
+                    </div>
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputPassword2">Mot De Passe</label>
+                       <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Mot De Passe" required>
+                                             <div class="help-block text-right"><a href="">Mot De Passe Oublié ?</a></div>
+                    </div>
+                    <div class="form-group">
+                       <button type="submit" class="btn btn-primary btn-block">Connecter</button>
+                    </div>
+                    <div class="checkbox">
+                       <label>
+                       <input type="checkbox"> enregistrer le mot de passe
+                       </label>
+                    </div>
+                 </form>
+              </div>
+              <div class="bottom text-center">
+                Nouveau içi ? <a href="#inscription" data-toggle="modal"><b>Inscription </b></a>
+
+              </div>
+           </div>
+        </li>
+      </ul>
+        </li>
+
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+
+</nav>
+
+<!-- end navbar -------------------------- -->
+<!-- ------------------- begin carousel ---------------- -->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/annif-slide.png" alt="First slide">          
+        </div>
+        
+        <div class="item">
+          <img src="img/marriage-slide.jpg" alt="Third slide">
+        </div>
+
+        <div class="item">
+          <img src="img/dinner-pro-slide.jpg" alt="Third slide">
+        </div>
+
+        <div class="item">
+          <img src="img/annif1.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <div class="search">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="form-section">
+                <div class="row">
+                    <form role="form">
+                      <div class="col-lg-4">
+                        <div class="form-group">
+                         
+                          <input type="Text" class="form-control" id="location" placeholder="Que cherchez Vous ?">
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="form-group">
+                          
+                          <div class="input-group">
+                            <select class="form-control">
+                                        <option value="0" selected>Casablanca</option>
+                                        <option value="1">Fes</option>
+                                        <option value="2">Tanger</option>
+                                        <option value="3">Kesh</option>
+                                        <option value="4">Setat</option>
+                                    </select>
+                            <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="col-md-2">
+                        <div class="form-group">
+                          
+                          <select id="guest" name="guest" class="form-control">
+                          <optgroup label="Catégories" selected="selected">
+                              <option value="1">Marriage</option>
+                              <option value="2">anniversaire</option>
+                              <option value="3">Party</option>
+                              <option value="4">Dinner Pro</option>
+                              <option value="5">Fiésta</option>
+                              <option value="6">Coifeur</option>
+                              
+                              </optgroup>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-2">
+                        <button type="submit" class="btn btn-default btn-primary">Search</button>
+                      </div>
+                    </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- end our carousel ------------- -->
+
+
+
+
+
+<!-- ---------------------------espace pour elle et pour lui -------------------------- -->
+<!--
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+-->
+
+
+
+
+<div class="container text-center " style="padding-top:50px;">
+	<div class="row">
+		<div class="col-md-12">
+		<div class="jumbotron">
+			<h1 >vous voulez devenire parmie les partenaires de <strong><span>Ma</span>Fiésta ?</strong></h1>
+			<p >Vous étes un traiteur ou un coiffeur ,pattiserie peut étre ou un magazinier ! Donc vous étes chez le meuilleur endroit pour rendre service a des client ! pour cela il faut s'inscrire !</p>
+			<p>
+				<a href="#inscription" data-toggle="modal"href="#" class="btn btn-success" id="btn_jumbotrone" style="font-family: 'Boogaloo', cursive; font-size:20px;">Inscrivez vous</a>
+			</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<section class="price_table1">
+<h1 class="text-center" style="padding-top:15px; font-family: 'Amatic SC', cursive; font-size:50px;">Nos Mariées :</h1>
+ <div class="container">
+		<div class="row">
+			<div class="[ col-sm-6 col-md-offset-2 col-md-4 ]">
+				<div class="[ info-card ]">
+					<img style="width: 100%" src="img/2.jpg" class="img-responsive" />
+					<div class="[ info-card-details ] animate">
+						<div class="[ info-card-header ]">
+							<h1> Pour Elle : </h1>
+							<h3> Promotion </h3>
+						</div>
+						<div class="[ info-card-detail ]">
+							<!-- Description -->
+							<p>La mode d'aujourd'hui est très flexible, chaque personne peut composer son propre style et trouver les tenues qui lui conviennent. Chez <strong>MaFiésta</strong>, vous pouvez prendre votre temps et faire les bons choix pour une garde-robe qui s'adapte aussi bien à votre quotidien qu'à vos occasions particulières..</p>
+							<div class="social">
+								<a href="https://www.facebook.com/rem.mcintosh" class="[ social-icon facebook ] animate"><span class="fa fa-facebook"></span></a>
+
+								<a href="https://twitter.com/Mouse0270" class="[ social-icon twitter ] animate"><span class="fa fa-twitter"></span></a>
+
+								<a href="https://github.com/mouse0270" class="[ social-icon github ] animate"><span class="fa fa-github-alt"></span></a>
+
+								<a href="https://plus.google.com/u/0/115077481218689845626/posts" class="[ social-icon google-plus ] animate"><span class="fa fa-google-plus"></span></a>
+
+								<a href="www.linkedin.com/in/remcintosh/" class="[ social-icon linkedin ] animate"><span class="fa fa-linkedin"></span></a>
+							</div>
+							<br>
+							<a href="#" class="btn btn-primary">détails</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+    		
+				<div class="[ col-sm-6 col-md-4 ]">
+				<div class="[ info-card ]">
+					<img style="width: 100%" src="img/mari.jpg" class="img-responsive" />
+					<div class="[ info-card-details ] animate">
+						<div class="[ info-card-header ]">
+							<h1> Pour Lui :</h1>
+							<h3> Promotion </h3>
+						</div>
+						<div class="[ info-card-detail ]">
+							<!-- Description -->
+							<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles.</p>
+							<div class="social">
+								<a href="https://www.facebook.com/rem.mcintosh" class="[ social-icon facebook ] animate"><span class="fa fa-facebook"></span></a>
+
+								<a href="https://twitter.com/Mouse0270" class="[ social-icon twitter ] animate"><span class="fa fa-twitter"></span></a>
+
+								<a href="https://github.com/mouse0270" class="[ social-icon github ] animate"><span class="fa fa-github-alt"></span></a>
+
+								<a href="https://plus.google.com/u/0/115077481218689845626/posts" class="[ social-icon google-plus ] animate"><span class="fa fa-google-plus"></span></a>
+
+								<a href="www.linkedin.com/in/remcintosh/" class="[ social-icon linkedin ] animate"><span class="fa fa-linkedin"></span></a>
+							</div>
+							<br>
+							<a href="#" class="btn btn-primary">détails</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+
+<section class="nos_packes">
+<h1 class="text-center" style="padding-top:15px; font-family: 'Amatic SC', cursive; font-size:50px;">Nos Packes :</h1>
+<div class="container" style="min-height: 800px;">
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <span class="heading">
+                        <h3>Marriage</h3>
+                        <div class="thumbnail">
+                        	<img src="img/marriage1.jpg" class="img-responsive img-circle">
+                        </div>
+                        
+                    </span>
+                    <span class="price-value">Dh<span>5000</span><span class="month">Sur 4mois</span></span>
+                </div>
+ 
+                <div class="pricingContent">
+                    <ul>
+                        <li>Traiteur Professionel</li>
+                        <li>Patisserie</li>
+                        <li>Salle de Marriage</li>
+                        <li>Coiffeur H/F</li>
+                        <li>Groupe Musical</li>
+                    </ul>
+                </div><!-- /  CONTENT BOX-->
+ 
+                <div class="pricingTable-sign-up">
+                    <a href="#" class="btn btn-block btn-default">Participer</a>
+                </div><!-- BUTTON BOX-->
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <span class="heading">
+                        <h3>anniversaire</h3>
+                         <div class="thumbnail">
+                        	<img src="img/annif1.jpg"  class="img-responsive img-circle">
+                        </div>
+                    </span>
+                    <span class="price-value">Dh<span>1000</span><span class="month">/Promotion</span></span>
+                </div>
+ 
+                <div class="pricingContent">
+                    <ul>
+                        <li>Des intervenants artistiques(magicien,danceur)</li>
+                        <li>Groupe musical</li>
+                        <li>Cadeau Pour enfants</li>
+                        <li>invitées entre 20 & 30</li>
+                        <li>boissant et patisserie</li>
+                    </ul>
+                </div><!-- /  CONTENT BOX-->
+ 
+                <div class="pricingTable-sign-up">
+                    <a href="#" class="btn btn-block btn-default">Participer</a>
+                </div><!-- BUTTON BOX-->
+            </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6">
+            <div class="pricingTable">
+                <div class="pricingTable-header">
+                    <span class="heading">
+                        <h4>Dinner Professionel</h4>
+                         <div class="thumbnail">
+                        	<img src="img/dinner.jpg"  class="img-responsive img-circle">
+                        </div>
+                    </span>
+                    <span class="price-value">Dh<span>600</span><span class="month">/Promotion</span></span>
+                </div>
+ 
+                <div class="pricingContent">
+                    <ul>
+                        <li>restaurant testé et éprouvé</li>
+                        <li>Cadeaux restaurant</li>
+                        <li>Promotions et menus</li>
+                        <li>invitées entre 8 & 10</li>
+                   
+                    </ul>
+                </div><!-- /  CONTENT BOX-->
+ 
+                <div class="pricingTable-sign-up">
+                    <a href="#" class="btn btn-block btn-default">Participer</a>
+                </div><!-- BUTTON BOX-->
+            </div>
+        </div>
+      
+        </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Ma<span>Fiésta</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          ·
+          <a href="#">About</a>
+          ·
+          <a href="#">Nos Service</a>
+          ·
+          <a href="#">éuipes</a>
+          ·
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">Mafiésta&copy; 2016</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Maroc</span> Casablanca</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+21206666666</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">support@fete.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>A Propos :</span>
+          Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#" id="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" id="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" id="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" id="github"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    <!-- ------------------------ modal ------------------- -->
+    <div class="modal fade" id="inscription" role="dialog">
+      <div class="modal-dialog">
+      <div class="modal-content">
+      <form class="form-horizontal" role="form">
+          <div class="modal-header">
+            <h4>Login :<h4>
+          </div>
+          <br>
+          <div class="modal-body">
+            <form class="form-group">
+    <div class="form-group">
+              <label for="username" class="cols-sm-2 control-label">Username</label>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+                </div>
+    </div>
+
+    <div class="form-group">
+              <label for="email" class="cols-sm-2 control-label">adresse email</label>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope-open-o" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your email adresse"/>
+                </div>
+    </div>
+
+    <div class="form-group">
+              <label for="password" class="cols-sm-2 control-label">Password</label> 
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                  <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+              </div>
+    </div>
+    <br>
+    <div class="form-group">
+              <label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                  <input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+              </div>
+    </div>
+    <div class="form-group">
+      <label for="cat" class="cols-sm-2 control-label">Catégorie</label>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-hashtag" aria-hidden="true"></i></span>
+                  <select id="cat" class="form-control">
+                    <option>professionel</option>
+                    <option>particulier</option>
+                  </select>
+              </div>
+    </div>
+      <div class="form-group ">
+              <button type="button" class="btn btn-primary btn-lg btn-block login-button">Continue</button>
+      </div>
+    <br>
+ 
+
+    </form>
+      </div>
+      </div>
+      </div>
+<script type="text/javascript" src="http://services.supportduweb.com/translator/2703-1-yyyyyyyyy.js"></script>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/myscript.js"></script>
+</body>
+</html>
