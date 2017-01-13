@@ -24,6 +24,8 @@
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Vampiro+One" rel="stylesheet">
+
 <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
@@ -38,7 +40,7 @@
 
 <nav class="navbar navbar-default navbar-fixed-top">
 
-  <div class="container">
+  <div class="container-fluid">
 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -56,18 +58,17 @@
     <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
     <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
     <a href=""><i class="fa fa-skype" aria-hidden="true"></i>
-   
 </a>
   </li>
 </ul>
-      <a class="navbar-brand" href="#"><span>Ma</span>Fiésta</a>
+      <a class="navbar-brand" href="#"><span>Mon</span>Event</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="ournavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#"><i class="fa fa-television" aria-hidden="true"></i> Présentation</a></li>
-        <li><a href="#"><i class="fa fa-pie-chart" aria-hidden="true"></i> Nos Packes</a></li>
+        <li><a href="#packes"><i class="fa fa-pie-chart" aria-hidden="true"></i> Nos Packes</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-venus-double" aria-hidden="true"></i>
  Nos Mariées <span class="caret"></span></a>
@@ -85,7 +86,8 @@
 
         </li>
         <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i> Nos Professionels</a></li>
-        <li><a href="#inscription" data-toggle="modal"><i class="fa fa-handshake-o" aria-hidden="true"></i> Devenire Partenaires</a></li>
+        <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i> Nos Partenaires</a></li>
+        <li><a href="contact.html"><i class="fa fa-pie-chart" aria-hidden="true"></i> Contacte</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-sign-in" aria-hidden="true"></i> <b>Login</b> <span class="caret"></span></a>
       <ul id="login-dp" class="dropdown-menu">
@@ -202,9 +204,9 @@
                               </optgroup>
                           </select>
                         </div>
-                      </div>
-                      <div class="col-md-2">
-                        <button type="submit" class="btn btn-default btn-primary">Search</button>
+                      </div> 
+                      <div class="col-md-2 btn-srsh">
+                        <button type="submit" class="btn btn-default btn-primary"><a class="search_link" style="color:#fff;" href="page_resultat.html">Search</a></button>
                       </div>
                     </form>
                 </div>
@@ -314,7 +316,7 @@ Licensed under MIT
 
 
 
-<section class="nos_packes">
+<section class="nos_packes" id="packes">
 <h1 class="text-center" style="padding-top:15px; font-family: 'Amatic SC', cursive; font-size:50px;">Nos Packes :</h1>
 <div class="container" style="min-height: 800px;">
     <div class="row">
@@ -410,16 +412,51 @@ Licensed under MIT
 </div>
 </section>
 
+<!-- our teams -->
+<div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center text-primary">équipes</h1>
+                        <p class="text-center">notre équipe de professionnel</p>
+                    </div>
+                </div>
+                <div class="row">
+                
+                
+                    <div class="col-md-4">
+                        <img src="img/othmane.jpg"
+                        class="img-quadrata center-block" >
+                        <h3 class="text-center" >Othmane Marini
+                        <br/>
+                        <small> Developer</small></h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/saad.jpg"
+                        class="center-block img-quadrata" >
+                        <h3 class="text-center" >Saad Jahoud
+                        <br/>
+                        <small> Developer</small></h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/haitam.jpg"
+                        class="center-block img-quadrata">
+                        <h3 class="text-center">Omar Elkhadiri
+                        <br/>
+                        <small> Developer</small></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-
-
+<!-- end section our teams -->
 
 <footer class="footer-distributed">
 
       <div class="footer-left">
 
-        <h3>Ma<span>Fiésta</span></h3>
+        <h3>Mon<span>Event</span></h3>
 
         <p class="footer-links">
           <a href="#">Home</a>
@@ -433,7 +470,7 @@ Licensed under MIT
           <a href="#">Contact</a>
         </p>
 
-        <p class="footer-company-name">Mafiésta&copy; 2016</p>
+        <p class="footer-company-name">MonEvent&copy; 2016</p>
       </div>
 
       <div class="footer-center">
@@ -537,7 +574,7 @@ Licensed under MIT
       </div>
       </div>
       </div>
-<script type="text/javascript" src="http://services.supportduweb.com/translator/2703-1-yyyyyyyyy.js"></script>
+
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/myscript.js"></script>
