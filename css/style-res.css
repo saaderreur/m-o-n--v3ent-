@@ -73,6 +73,9 @@ body
 {
     font-size: 30px;
     line-height: 4px;
+   font-family: 'Vampiro One', cursive;
+
+
 }
 .navbar-toggle {
     margin-top: 17px;
@@ -127,6 +130,7 @@ color: #fff;
 }
 
 /* ------------------------------ carousel style ---------------- */
+
 
 
 .carousel {
